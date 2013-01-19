@@ -1,0 +1,12 @@
+#!/usr/bin/env node
+
+var repoUrl = process.argv[2];
+var port = process.argv[3];
+
+if (!repoUrl) {
+    console.log('Repository URL is required.');
+    console.log('Usage: plato-repo-report repoURL');
+    return;
+}
+
+require('../lib/plato-repo-report')(repoUrl, port);

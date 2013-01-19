@@ -1,0 +1,158 @@
+{
+  "name": "plato-repo-report",
+  "version": "0.1.0",
+  "dependencies": {
+    "express": {
+      "version": "3.0.6",
+      "dependencies": {
+        "connect": {
+          "version": "2.7.2",
+          "dependencies": {
+            "qs": {
+              "version": "0.5.1"
+            },
+            "formidable": {
+              "version": "1.0.11"
+            },
+            "bytes": {
+              "version": "0.1.0"
+            },
+            "pause": {
+              "version": "0.0.1"
+            }
+          }
+        },
+        "commander": {
+          "version": "0.6.1"
+        },
+        "range-parser": {
+          "version": "0.0.4"
+        },
+        "mkdirp": {
+          "version": "0.3.3"
+        },
+        "cookie": {
+          "version": "0.0.5"
+        },
+        "buffer-crc32": {
+          "version": "0.1.1"
+        },
+        "fresh": {
+          "version": "0.1.0"
+        },
+        "methods": {
+          "version": "0.0.1"
+        },
+        "send": {
+          "version": "0.1.0",
+          "dependencies": {
+            "mime": {
+              "version": "1.2.6"
+            }
+          }
+        },
+        "cookie-signature": {
+          "version": "0.0.1"
+        },
+        "debug": {
+          "version": "0.7.0"
+        }
+      }
+    },
+    "temp": {
+      "version": "0.5.0"
+    },
+    "plato": {
+      "version": "0.4.3",
+      "dependencies": {
+        "complexity-report": {
+          "version": "0.6.2",
+          "dependencies": {
+            "check-types": {
+              "version": "0.3.1"
+            },
+            "esprima": {
+              "version": "1.0.2"
+            },
+            "commander": {
+              "version": "1.1.1",
+              "dependencies": {
+                "keypress": {
+                  "version": "0.1.0"
+                }
+              }
+            }
+          }
+        },
+        "posix-getopt": {
+          "version": "1.0.0"
+        },
+        "lodash": {
+          "version": "1.0.0-rc.3"
+        },
+        "fs-extra": {
+          "version": "0.3.2",
+          "dependencies": {
+            "rimraf": {
+              "version": "2.0.3",
+              "dependencies": {
+                "graceful-fs": {
+                  "version": "1.1.14"
+                }
+              }
+            },
+            "ncp": {
+              "version": "0.2.6"
+            },
+            "mkdirp": {
+              "version": "0.3.4"
+            },
+            "jsonfile": {
+              "version": "0.0.1"
+            }
+          }
+        },
+        "jshint": {
+          "version": "0.9.1",
+          "dependencies": {
+            "cli": {
+              "version": "0.4.3",
+              "dependencies": {
+                "glob": {
+                  "version": "3.1.14",
+                  "dependencies": {
+                    "minimatch": {
+                      "version": "0.2.9",
+                      "dependencies": {
+                        "lru-cache": {
+                          "version": "2.0.4"
+                        },
+                        "sigmund": {
+                          "version": "1.0.0"
+                        }
+                      }
+                    },
+                    "graceful-fs": {
+                      "version": "1.1.14"
+                    },
+                    "inherits": {
+                      "version": "1.0.0"
+                    }
+                  }
+                }
+              }
+            },
+            "minimatch": {
+              "version": "0.0.5",
+              "dependencies": {
+                "lru-cache": {
+                  "version": "1.0.6"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

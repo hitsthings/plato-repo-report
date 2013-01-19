@@ -1,0 +1,31 @@
+{
+  "name": "plato-repo-report",
+  "description": "Serves up Plato reports for your Git repo",
+  "version": "0.1.0",
+  "homepage": "",
+  "author": {
+    "name": "Adam Ahmed",
+    "email": "hitsthings@gmail.com",
+    "url": "http://noiregrets.com"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "bin" : "bin/plato-repo-report",
+  "main": "lib/plato-repo-report",
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies" : {
+    "express" : "latest",
+    "temp" : "latest",
+    "plato" : "latest"
+  },
+  "//devDependencies": {
+    "grunt": "~0.3.17"
+  },
+  "keywords": []
+}
